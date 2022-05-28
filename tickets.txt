@@ -1,0 +1,16 @@
+consistent fonts
+consistent color scheme
+make hobbies/interests a carousel
+Make header sticky 
+
+Add bullet points to work experience page
+Change background
+Change color scheme
+Add education 
+
+Add text to places I've visited
+
+Change style of contact me form
+Add my contact details to page
+
+
