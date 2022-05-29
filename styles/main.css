@@ -2,10 +2,10 @@
 /* * { border: 1px solid black; } */
 .about-me-background {
   background-color: #FFF6F6;
-  background-image: url("../pages/images/nissa-fish2.jpeg"); 
+  /* background-image: url("../pages/images/nissa-florals3.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;  */
 
 }
 .about-me-heading {
@@ -33,6 +33,7 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  margin-bottom: 0;
   
 }
 .navLinks {
@@ -138,10 +139,10 @@ header {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  border: 2px solid black;
+  margin-top: 10px;
+  /* border: 2px solid black; */
   border-radius: 15px;
-  background-color: #FFFFE0;
+  /* background-color: #FFFFE0; */
   padding: 40px;
 }
 .form-element {
@@ -156,6 +157,13 @@ header {
   font-weight: bold;
   font-size: 2.5em;
   padding: 30px;
+}
+.contact-background {
+  background-color: lightblue;
+  background-image: url("../pages/images/nissa-insects2.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
 }
 #submit-button {
   background-color: #66CDAA ;
@@ -190,12 +198,22 @@ header {
   margin-top: 200px;
 }
 #seeplaces{
-  width: 200px;
-  height: 45px;
+  background-color: #D6AEB0;
+  width: 175px;
+  height: 75px;
   border-radius: 15px;
-  background-color: #ff9980;
-  font-size: 1.5em;
-  Font-family: 'Raleway', sans-serif;
+  border: 2px solid #C4033D;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+margin-top: 155px;
+}
+.places-text{
+  text-align: center;
+}
+.travel-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
 }
 img {
   width: 100%;
@@ -210,7 +228,15 @@ img {
 }
 .places-header1 {
   text-align: center;
-    color: #ff5c33;
-  font-size: 2.5em;
-  Font-family: 'Raleway', sans-serif;
+    color: #B03235;
+  font-size: 3.5em;
+  Font-family: 'Amatic SC', cursive;
+  margin-top: -10px;
+}
+.places-background {
+  background-color: #FFF6F6;
+  background-image: url("../pages/images/nissa-birds1.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
 }
