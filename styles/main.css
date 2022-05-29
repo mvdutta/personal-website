@@ -1,16 +1,18 @@
 
 /* * { border: 1px solid black; } */
 .about-me-background {
-  background-color: #F0FFFF;
+  background-color: #FFF6F6;
 }
 .about-me-heading {
-  font-family: 'Macondo', cursive;
-  font-size: 2.5em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
   text-align: center;
-  color: #2F4F4F;
+  color: #553642;
 }
-.about-me-text {
+.about-me-text { 
   font-family: 'Raleway', sans-serif;
+  color: #302219;
+  font-size: 16px;
 }
 .logoDiv {
   width: 10%;
@@ -21,36 +23,38 @@
   border: 1px solid #009999;
 }
 .navBar {
-  background-color: #b3ffff;
+  background-color: #E3E4DF;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   
 }
 .navLinks {
   list-style: none;
   display: flex;
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em
+  /* font-family: 'Raleway', sans-serif;; */
 }
 .navItem:hover{
-  background-color: white;
+  /* background-color: white; */
 }
 .navItem a {
   text-decoration: none;
-  color: #003333;
+  color: #885463;
   padding: 15px 10px;
   display: inline-block;
   font-size: 1.2em;
 }
 .navItem a:hover{
-  color: #ff5c33;
+  color: #DD7E75;
 }
 .hobbies {
   text-align: center;
-  font-family: 'Macondo', cursive;
-  font-size: 1.5em;
-  color: #2F4F4F;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5em;
+  color: #553642;
 }
 .card-holder1 {
   margin: 30px;
@@ -71,19 +75,19 @@ img {
   padding: 10px;
   background-color: #FFE4E1;
   text-align: center;
+  font-family:'Raleway', sans-serif;
 }
 .diff-background {
   background-color: lightblue;
-  background-image: url("https://i.pinimg.com/564x/d9/cb/2a/d9cb2add609d1cf180e009b826096ecd.jpg");
-  height: 250px;
-  background-position: center;
+  background-image: url("../pages/images/NissaKauppila04_19_31_web.jpeg"); 
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
 }
 
 #workExp1{
-  font-family: 'Macondo', cursive;
+  font-family:'Raleway', sans-serif;
   border: 3px solid sienna;
   border-radius: 10px
 }
@@ -93,7 +97,7 @@ img {
   border-radius: 10px
 }
 #workExp3{
-  font-family:'Akshar', sans-serif;
+  font-family: 'Raleway', sans-serif;
   border: 3px solid coral;
   border-radius: 10px
   
@@ -104,7 +108,7 @@ img {
   font-size: 1.5em
 }
 .mainHeading {
-  font-family:'Lobster', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 3em;
   text-align: center;
   color: #2F4F4F;
