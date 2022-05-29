@@ -2,6 +2,11 @@
 /* * { border: 1px solid black; } */
 .about-me-background {
   background-color: #FFF6F6;
+  background-image: url("../pages/images/nissa-fish2.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+
 }
 .about-me-heading {
   font-family: 'Amatic SC', cursive;
@@ -23,7 +28,7 @@
   border: 1px solid #009999;
 }
 .navBar {
-  background-color: #E3E4DF;
+  /* background-color: #E3E4DF; */
   width: 100%;
   display: flex;
   justify-content: right;
@@ -79,8 +84,7 @@ img {
 }
 .diff-background {
   background-color: lightblue;
-  background-image: url("../pages/images/NissaKauppila04_19_31_web.jpeg"); 
-  /* background-position: center; */
+  background-image: url("../pages/images/nissa-florals2.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
