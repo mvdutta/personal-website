@@ -2,10 +2,10 @@
 /* * { border: 1px solid black; } */
 .about-me-background {
   background-color: #FFF6F6;
-  /* background-image: url("../pages/images/nissa-florals3.jpeg"); 
+  background-image: url("../pages/images/background9.png"); 
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;  */
+  position: relative; 
 
 }
 .about-me-heading {
@@ -85,7 +85,7 @@ img {
 }
 .diff-background {
   background-color: lightblue;
-  background-image: url("../pages/images/nissa-florals2.jpeg"); 
+  background-image: url("../pages/images/purpleflower.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
@@ -159,8 +159,8 @@ header {
   padding: 30px;
 }
 .contact-background {
-  background-color: lightblue;
-  background-image: url("../pages/images/nissa-insects2.jpeg"); 
+  background-color: #D3C4B6;
+  background-image: url("../pages/images/pinkflower.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
@@ -235,7 +235,7 @@ img {
 }
 .places-background {
   background-color: #FFF6F6;
-  background-image: url("../pages/images/nissa-birds1.jpeg"); 
+  background-image: url("../pages/images/background10.jpeg"); 
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 

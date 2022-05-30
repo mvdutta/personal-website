@@ -2,7 +2,6 @@ consistent fonts
 consistent color scheme
 make hobbies/interests a carousel
 Make header sticky 
-Make logo clickable and return to homepage
 
 Add bullet points to work experience page
 Change background
