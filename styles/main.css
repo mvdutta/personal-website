@@ -48,13 +48,13 @@
 }
 .navItem a {
   text-decoration: none;
-  color: #885463;
+  color: #D2143E;
   padding: 15px 10px;
   display: inline-block;
   font-size: 1.2em;
 }
 .navItem a:hover{
-  color: #DD7E75;
+  color: #ee6c79;
 }
 .hobbies {
   text-align: center;
@@ -131,10 +131,7 @@ article {
 header {
   text-align: center;
 }
-.myForm {
-  display: flex;
-    flex-direction: column;
-}
+
 .form-container {
   width: 50%;
   margin-left: auto;
@@ -144,19 +141,34 @@ header {
   border-radius: 15px;
   /* background-color: #FFFFE0; */
   padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.myForm {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 .form-element {
   margin: 20px;
   border: 1px solid black;
-  font-size: 1.5em;
-  width: 60%
+  font-size: 1.1em;
+  width: 60%;
+}
+.labels{
+  font-size: 1.1em;
+  width: 60%;
 }
 #contact-me {
   text-align: center;
-    color: #008080;
+  font-family: 'Amatic SC', cursive;
+    color: #4b9672;
   font-weight: bold;
-  font-size: 2.5em;
-  padding: 30px;
+  font-size: 3em;
+  padding: 20px;
 }
 .contact-background {
   background-color: #D3C4B6;
@@ -165,18 +177,17 @@ header {
   background-size: cover;
   position: relative; 
 }
+/* .labels{
+  margin-left: 20px;
+} */
 #submit-button {
-  background-color: #66CDAA ;
+  background-color: #4b9672 ;
   color: white;
-  width: 30%;
+  width: 20%;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-}
-.labels {
-  margin-left: 20px;
- 
 }
 
 .card-holder {
