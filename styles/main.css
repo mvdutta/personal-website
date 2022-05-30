@@ -12,11 +12,14 @@
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
   text-align: center;
-  color: #553642;
+  color:#923B06;
+}
+.about-me-subheading1 {
+  color:#923B06;
 }
 .about-me-text { 
   font-family: 'Raleway', sans-serif;
-  color: #302219;
+  color: #541B07;
   font-size: 16px;
 }
 .logoDiv {
@@ -179,9 +182,9 @@ header {
   background-size: cover;
   position: relative; 
 }
-/* .labels{
-  margin-left: 20px;
-} */
+.contact-info {
+  text-align: center
+}
 #submit-button {
   background-color: #4b9672 ;
   color: white;

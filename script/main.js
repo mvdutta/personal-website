@@ -14,7 +14,7 @@ function handleClick() {
   let textBox = document.getElementById("textBox").value;
   let message = "";
   if (fullName !== "" && email !== "" && textBox !== "") {
-    message = `Hello, ${fullName}, we received your email address (${email}) and your comment (${textBox}).`;
+    message = `Hello, ${fullName}! We received your email address (${email}) and your comment (${textBox}). Thank you for your interest.`;
     alert(message);
   } else if (fullName !== "" && email !== "" && textBox === "") {
     message = `Hello, ${fullName}, we received your email address (${email}).`;

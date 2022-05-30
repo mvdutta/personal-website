@@ -1,7 +1,12 @@
 consistent fonts
 consistent color scheme
-make hobbies/interests a carousel
+add quotes to about me page
 Make header sticky 
+
+
+Make a separate Hobbies and Interest page
+make hobbies/interests a carousel
+
 
 Add bullet points to work experience page
 Change background
