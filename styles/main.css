@@ -59,6 +59,20 @@
 .navItem a:hover{
   color: #ee6c79;
 }
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#indian-image {
+  width: 100px;
+
+}
+.footer{
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
 .hobbies {
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -211,7 +225,7 @@ header {
 .button-div {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 #seeplaces{
   background-color: #D6AEB0;
@@ -222,7 +236,7 @@ header {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-margin-top: 155px;
+  margin-top: 155px;
 }
 .places-text{
   text-align: center;
