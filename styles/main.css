@@ -65,13 +65,20 @@
   margin-top: 100px;
 }
 
-#indian-image {
-  width: 100px;
+#orangecat-image {
+  width: 45px;
 
 }
 .footer{
   text-align: center;
   font-family:'Raleway', sans-serif;
+}
+.interests {
+  background-color: #FFF6F6;
+  background-image: url("/pages/images/background8.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
 }
 .hobbies {
   text-align: center;
