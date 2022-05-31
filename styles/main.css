@@ -10,9 +10,9 @@
 }
 .about-me-heading {
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 3em;
   text-align: center;
-  color:#923B06;
+  color: #B03235;
 }
 .about-me-subheading1 {
   color:#923B06;
@@ -34,17 +34,7 @@
 
 }
 
-}
-.logoDiv {
-  width: 10%;
-}
-.logoDiv img {
-  width: 50%;
-  margin: 8px 8px 8px 8px;
-  border: 1px solid #009999;
-}
 .navBar {
-  /* background-color: #E3E4DF; */
   width: 100%;
   display: flex;
   justify-content: right;
@@ -52,6 +42,7 @@
   margin-bottom: 0;
   
 }
+
 .navLinks {
   list-style: none;
   display: flex;
@@ -93,8 +84,8 @@
 .hobbies {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 2.5em;
-  color:#db5c0d;
+  font-size: 3em;
+  color:#B03235;
 }
 .card-holder1 {
   margin: 30px;
@@ -150,7 +141,7 @@ img {
   font-family: 'Amatic SC', cursive;
   font-size: 3em;
   text-align: center;
-  color: #2F4F4F;
+  color: #B03235;
 }
 .container {
   width: 40%;
@@ -171,16 +162,14 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  /* border: 2px solid black; */
   border-radius: 15px;
-  /* background-color: #FFFFE0; */
   padding: 40px;
   display: flex;
   justify-content: center;
 }
 .myForm {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -201,7 +190,7 @@ header {
 #contact-me {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-    color: #4b9672;
+    color: #B03235;
   font-weight: bold;
   font-size: 3em;
   padding: 20px;
@@ -217,8 +206,8 @@ header {
   text-align: center
 }
 #submit-button {
-  background-color: #4b9672 ;
-  color: white;
+  background-color: #b4c198;
+  color: black;
   width: 20%;
   margin-top: 10%;
   margin-left: auto;
@@ -245,18 +234,18 @@ header {
   margin-top: 100px;
 }
 #seeplaces{
-  background-color: #D6AEB0;
+  background-color: #b4c198;
   width: 175px;
   height: 75px;
-  border-radius: 15px;
-  border: 2px solid #C4033D;
+  border-radius: 50px;
+  border: 2px solid black;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  margin-top: 155px;
 }
 .places-text{
   text-align: center;
+  padding: 40px;
 }
 .travel-text {
   font-family: 'Raleway', sans-serif;
@@ -278,11 +267,11 @@ img {
     color: #B03235;
   font-size: 3.5em;
   Font-family: 'Amatic SC', cursive;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 .places-background {
   background-color: #FFF6F6;
-  background-image: url("../pages/images/background10.jpeg"); 
+  background-image: url("../pages/images/aged-paper.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
