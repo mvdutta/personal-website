@@ -19,3 +19,36 @@ Change style of contact me form
 Add my contact details to page
 change background
 
+<div class="card-holder1">
+<div class="card1">
+        <img src="images/rock-3950774_1920.jpeg"/>
+           <div class="card-text1">
+             Kayaking
+           </div>
+         </div>
+         <div class="card1">
+           <img src="images/egypt-3627971_1920.jpeg"/>
+           <div class="card-text1">
+             Traveling
+           </div>
+         </div>
+         <div class="card1">
+           <img src="images/laptop-2620118_1920.jpeg"/>
+           <div class="card-text1">
+            Web Development
+           </div>
+         </div>
+         <div class="card1">
+           <img src="images/lifestyle-change-1430599_1920.jpeg"/>
+           <div class="card-text1">
+            Health and Fitness
+           </div>
+         </div>
+         <div class="card1">
+           <img src="images/godzilla-5808827_1920.jpeg"/>
+           <div class="card-text1">
+             Godzilla
+           </div>
+         </div>
+       </div>
+

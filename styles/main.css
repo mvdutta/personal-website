@@ -94,7 +94,7 @@
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 2.5em;
-  color: #553642;
+  color:#db5c0d;
 }
 .card-holder1 {
   margin: 30px;
@@ -286,4 +286,10 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
+}
+
+#carouselExampleIndicators{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
 }
