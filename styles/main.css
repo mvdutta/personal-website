@@ -268,6 +268,7 @@ img {
   font-size: 3.5em;
   Font-family: 'Amatic SC', cursive;
   margin-top: 20px;
+ 
 }
 .places-background {
   background-color: #FFF6F6;
@@ -278,12 +279,14 @@ img {
 }
 
 #carouselExampleCaptions {
-  width:50%;
+  width: 32%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 80px;
+
 }
 
 .carousel-img {
-width: 450px;
-height: 450px;
+width: 500px;
+height: 400px;
 }
