@@ -1,5 +1,5 @@
-
-/* * { border: 1px solid black; } */
+/* 
+* { border: 1px solid black; } */
 .about-me-background {
   background-color: #FFF6F6;
   background-image: url("../pages/images/background9.png"); 
@@ -227,6 +227,7 @@ header {
 .card {
   width: 500px;
   margin:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .button-div {
   display: flex;
@@ -259,8 +260,12 @@ img {
 .card-text {
   margin-top:-10px;
   padding: 10px;
-  background-color: #ffccff;
+  /* background-color: #beb6b0; */
   text-align:center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+  color: #B03235;
+  
 }
 .places-header1 {
   text-align: center;
@@ -289,4 +294,7 @@ img {
 .carousel-img {
 width: 500px;
 height: 400px;
+}
+.carousel-text {
+  color: black;
 }
