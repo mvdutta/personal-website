@@ -1,11 +1,10 @@
 consistent fonts (done)
 consistent color scheme (done)
 add quotes to about me page
-Make header sticky 
 
 
 Make a separate Hobbies and Interest page (done)
-make hobbies/interests a carousel
+make hobbies/interests a carousel (done)
 
 
 Add bullet points to work experience page
@@ -19,7 +18,9 @@ Change style of contact me form (done)
 Add my contact details to page (done)
 change background (done)
 
-Put logo on tabs
+Put logo on tabs (done)
+
+put cursor pointer 
 
 <div class="card-holder1">
 <div class="card1">
