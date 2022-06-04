@@ -1,12 +1,17 @@
-// $("#submit-button").click(function(){
-//   let fullName = document.getElementById("fullName").value;
-//   // let fullName = ("#fullName").val();
-//   // let email = ('#email').val();
-//   // let textBox = ('#textBox').val();
-//  alert(fullName);
-//  console.log(fullName)
-//   // alert("Hello!")
-// });
+const quotes = [
+  'If I cannot do great things, I can do small things in a great way.” – Martin Luther King Jr',
+  'An orange cat is cute."',
+  'The earth resides in the sun."'
+]
+function getRandomQuote (){
+  const randomIndex = Math.floor(Math.random() * quotes.length); 
+  const quote =  quotes[randomIndex];
+  const quoteSpan = document.getElementById("theQuote");
+  quoteSpan.innerHTML= quote;
+}
+
+
+
 let submitButton = document.getElementById("submit-button");
 function handleClick() {
   let fullName = document.getElementById("fullName").value;
@@ -23,3 +28,4 @@ function handleClick() {
 }
 
 submitButton.addEventListener("click", handleClick);
+
