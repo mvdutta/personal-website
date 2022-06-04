@@ -21,6 +21,7 @@
   font-family: 'Raleway', sans-serif;
   color: #541B07;
   font-size: 16px;
+
 }
 #profilePic {
   width: 250px;
@@ -60,6 +61,24 @@
 .navItem a:hover{
   color: #ee6c79;
 }
+
+#quoteSection {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #975041;
+  font-size: 1.8em;
+}
+
+.page-break{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+#pageBreak {
+  width: 10%
+  
+
+}
 .img-container {
   display: flex;
   justify-content: center;
@@ -73,6 +92,7 @@
 .footer{
   text-align: center;
   font-family:'Raleway', sans-serif;
+  color: #541B07;
 }
 .interests {
   background-color: #FFF6F6;
