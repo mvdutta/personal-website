@@ -1,7 +1,10 @@
 const quotes = [
-  'If I cannot do great things, I can do small things in a great way.” – Martin Luther King Jr',
-  'An orange cat is cute."',
-  'The earth resides in the sun."'
+  'If I cannot do great things, I can do small things in a great way.” - Martin Luther King Jr',
+  'To succeed in life, you need three things: a wishbone, a backbone and a funny bone.” - Reba McEntire',
+  'You can’t cross the sea merely by standing and staring at the water.” - Rabindranath Tagore',
+  'To the mind that is still, the whole universe surrenders." - Lao Tzu',
+  'It\'s never too late to be what you might have been." - George Eliot',
+  'The most authentic thing about us is our capacity to create, to overcome, to endure, to transform, to love and to be greater than our suffering." - Ben Okri'
 ]
 function getRandomQuote (){
   const randomIndex = Math.floor(Math.random() * quotes.length); 
