@@ -3,8 +3,11 @@ const quotes = [
   'To succeed in life, you need three things: a wishbone, a backbone and a funny bone.” - Reba McEntire',
   'You can’t cross the sea merely by standing and staring at the water.” - Rabindranath Tagore',
   'To the mind that is still, the whole universe surrenders." - Lao Tzu',
+  'If you\'re always trying to be normal, you will never know how amazing you can be." - Maya Angelou',
   'It\'s never too late to be what you might have been." - George Eliot',
-  'The most authentic thing about us is our capacity to create, to overcome, to endure, to transform, to love and to be greater than our suffering." - Ben Okri'
+  'The most authentic thing about us is our capacity to create, to overcome, to endure, to transform, to love and to be greater than our suffering." - Ben Okri',
+  'If you don’t like something, change it. If you can’t change it, change your attitude.” — Maya Angelou',
+  'It always seems impossible until it\'s done.” - Nelson Mandela'
 ]
 function getRandomQuote (){
   const randomIndex = Math.floor(Math.random() * quotes.length); 

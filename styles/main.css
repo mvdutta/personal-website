@@ -53,19 +53,20 @@
 
 .navItem a {
   text-decoration: none;
-  color: #D2143E;
+  /* color: #D2143E; */
+  color: #bf0306 ;
   padding: 15px 10px;
   display: inline-block;
   font-size: 1.2em;
 }
 .navItem a:hover{
-  color: #ee6c79;
+  color: #e51212;
 }
 
 #quoteSection {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  color: #975041;
+  color: #b03235 ;
   font-size: 1.8em;
 }
 
