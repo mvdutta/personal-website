@@ -13,6 +13,8 @@ function getRandomQuote (){
   quoteSpan.innerHTML= quote;
 }
 
+setInterval(getRandomQuote,4000)
+
 
 
 let submitButton = document.getElementById("submit-button");
