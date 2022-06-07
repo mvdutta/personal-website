@@ -1,5 +1,4 @@
-/* 
-* { border: 1px solid black; } */
+ /* * { border: 1px solid black; }  */
 .about-me-background {
   background-color: #FFF6F6;
   background-image: url("../pages/images/background9.png"); 
@@ -131,34 +130,35 @@ img {
 }
 .diff-background {
   background-color: lightblue;
-  background-image: url("../pages/images/purpleflower.jpeg");
+  background-image: url("../pages/images/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
 }
+
+
 #resumeCardBody {
   /* border: 2px black solid; */
-  padding: 25px;
-  
+  padding: 10px;
 }
 
 .card-title {
-  color:#723966;
- 
+  color: #af4f0f;
   font-family:'Amatic SC', cursive;
-  font-size: 1.8em;
+  font-size: 1.9em;
   text-align: center;
+  margin-top: 10px;
 }
 
 #resumeCards {
-  color: #723966 ;
+  color: #66541b;
   font-size: 1.2em;
   font-family:'Raleway', sans-serif;
   margin-top: -50px;
 }
 
 .resume-text {
-  color: #662550;
+  color:#66541b;
   font-family:'Raleway', sans-serif;
   text-align: center;
   margin-top: -25px;
@@ -166,15 +166,19 @@ img {
 #resumeContent {
   color:#441836;
   font-family:'Raleway', sans-serif;
-  font-size: 1.1em;
-  margin-bottom: 30px;
+  font-size: 1em;
+  margin-bottom: 25px;
 }
-
+#educationContent {
+  margin-top: -50px;
+}
 .mainHeading {
   font-family: 'Amatic SC', cursive;
   font-size: 2.7em;
   text-align: center;
-  color: #723966;
+  color: #b03235;
+  margin-left: 65px;
+  padding: 55px;
 }
 .container {
   width: 40%;
