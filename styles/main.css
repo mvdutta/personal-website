@@ -136,33 +136,45 @@ img {
   background-size: cover;
   position: relative; 
 }
-
-#workExp1{
-  font-family:'Raleway', sans-serif;
-  border: 3px solid sienna;
-  border-radius: 10px
-}
-#workExp2{
-  font-family: 'Raleway', sans-serif;
-  border: 3px solid olive;
-  border-radius: 10px
-}
-#workExp3{
-  font-family: 'Raleway', sans-serif;
-  border: 3px solid coral;
-  border-radius: 10px
+#resumeCardBody {
+  /* border: 2px black solid; */
+  padding: 25px;
   
 }
-.jobHeading {
-  color: maroon;
-  font-weight: bold;
-  font-size: 1.5em
+
+.card-title {
+  color:#723966;
+ 
+  font-family:'Amatic SC', cursive;
+  font-size: 1.8em;
+  text-align: center;
 }
+
+#resumeCards {
+  color: #723966 ;
+  font-size: 1.2em;
+  font-family:'Raleway', sans-serif;
+  margin-top: -50px;
+}
+
+.resume-text {
+  color: #662550;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
+  margin-top: -25px;
+}
+#resumeContent {
+  color:#441836;
+  font-family:'Raleway', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
 .mainHeading {
   font-family: 'Amatic SC', cursive;
-  font-size: 3em;
+  font-size: 2.7em;
   text-align: center;
-  color: #B03235;
+  color: #723966;
 }
 .container {
   width: 40%;
