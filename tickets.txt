@@ -1,16 +1,51 @@
+Change labels on tabs (done)
+Match navigation text to the header (Home should be home, and About me should be a subhead, etc)
+Move navigation words closer to the top of page. Space should be equal to the height of the words themselves.
+Reduce some space on some pages: Places I've been: too much space between header and text and text and button: take 100 px of margin off top of button-dive class.
+Can carousel be wider?
+Add transparent background color behind the words to make them standout.
+Place-name captions on cards not centered. .card-text change to -4px.
+Make submit button consistent across all pages. 
+Alert box on contact me page: put the message on the page and make the form disappear and put the confirmation text in its place?
+Make headers, subheads, and reg. text sizes are consistent throughout site. Go to one page, make sure all the sizes and ratios are how you like them, then carry those across the site.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 consistent fonts (done)
 consistent color scheme (done)
-add quotes to about me page
+add quotes to about me page (done)
 
 
 Make a separate Hobbies and Interest page (done)
 make hobbies/interests a carousel (done)
 
 
-Add bullet points to work experience page
+Add bullet points to work experience page (done)
 Change background (done)
 Change color scheme (done)
-Add education 
+Add education (done)
 
 Add text to places I've visited (done)
 
@@ -20,40 +55,5 @@ change background (done)
 
 Put logo on tabs (done)
 
-put cursor pointer 
-
-onclick="location.href='https://drive.google.com/file/d/1F4v-CLRxpnxnj1CN-ttnM2BRZGXFHrUT/view?usp=sharing'"
-
-<div class="card-holder1">
-<div class="card1">
-        <img src="images/rock-3950774_1920.jpeg"/>
-           <div class="card-text1">
-             Kayaking
-           </div>
-         </div>
-         <div class="card1">
-           <img src="images/egypt-3627971_1920.jpeg"/>
-           <div class="card-text1">
-             Traveling
-           </div>
-         </div>
-         <div class="card1">
-           <img src="images/laptop-2620118_1920.jpeg"/>
-           <div class="card-text1">
-            Web Development
-           </div>
-         </div>
-         <div class="card1">
-           <img src="images/lifestyle-change-1430599_1920.jpeg"/>
-           <div class="card-text1">
-            Health and Fitness
-           </div>
-         </div>
-         <div class="card1">
-           <img src="images/godzilla-5808827_1920.jpeg"/>
-           <div class="card-text1">
-             Godzilla
-           </div>
-         </div>
-       </div>
+put cursor pointer (done)
 
