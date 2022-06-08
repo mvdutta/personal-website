@@ -22,16 +22,16 @@ setInterval(getRandomQuote,4000)
 
 let submitButton = document.getElementById("submit-button");
 function handleClick() {
-  let fullName = document.getElementById("fullName").value;
-  let email = document.getElementById("email").value;
-  let textBox = document.getElementById("textBox").value;
+  let fullName = document.getElementById("fullName").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let textBox = document.getElementById("textBox").value.trim();
   let message = "";
   if (fullName !== "" && email !== "" && textBox !== "") {
-    message = `Hello, ${fullName}! We received your email address (${email}) and your comment (${textBox}). Thank you for your interest.`;
-    alert(message);
+    message = `Hello, ${fullName}! We received your email address (${email}) and your comment (${textBox}). I'll get back to you soon!`;
+  swal(message);
   } else if (fullName !== "" && email !== "" && textBox === "") {
     message = `Hello, ${fullName}, we received your email address (${email}).`;
-    alert(message);
+  swal(message);
   }
 }
 
