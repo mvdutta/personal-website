@@ -172,12 +172,26 @@ img {
 #educationContent {
   margin-bottom: 0;
 }
+.resume-button {
+  margin-top: 60px;
+  display:flex;
+  justify-content:center;
+}
+#buttonResume{
+  border-radius: 15px;
+  border: 2px solid #492940;
+  font-family:'Raleway', sans-serif;
+  background-color: #b4c198;
+  width: 250px;
+  height: 35px;
+  cursor: pointer;
+}
 .mainHeading {
   font-family: 'Amatic SC', cursive;
   font-size: 2.7em;
   text-align: center;
   color: #b03235;
-  margin-left: 65px;
+  margin-left: 50px;
   padding: 55px;
 }
 .container {
