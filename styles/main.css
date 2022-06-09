@@ -116,12 +116,7 @@
 img {
   width: 100%;
 }
-.card-text1 {
-  padding: 10px;
-  background-color: #ffe4e1;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-}
+
 .diff-background {
   background-color: lightblue;
   background-image: url("../pages/images/background3.png");
@@ -135,7 +130,7 @@ img {
 }
 
 .card-title {
-  color: #af4f0f;
+  color: #bf0306;
   font-family: "Amatic SC", cursive;
   font-size: 1.7em;
   text-align: center;
@@ -174,13 +169,13 @@ img {
   border: 2px solid #492940;
   font-family: "Raleway", sans-serif;
   background-color: #b4c198;
-  width: 250px;
+  width: 150px;
   height: 35px;
   cursor: pointer;
 }
 .mainHeading {
   font-family: "Amatic SC", cursive;
-  font-size: 2.7em;
+  font-size: 3em;
   text-align: center;
   color: #b03235;
   margin-left: 50px;
@@ -234,10 +229,13 @@ img {
   width: 60%;
 }
 .labels {
-  font-size: 1.1em;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Raleway", sans-serif;
+  color: #541b07;
+  font-size: 16px; 
+
 }
 #contact-me {
   text-align: center;
@@ -256,15 +254,18 @@ img {
 }
 .contact-info {
   text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #541b07;
+  font-size: 16px;
 }
 #submit-button {
   background-color: #b4c198;
-  color: black;
-  width: 20%;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px;
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
   cursor: pointer;
 }
 
@@ -285,26 +286,28 @@ img {
 .button-div {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 #seeplaces {
   background-color: #b4c198;
-  width: 175px;
-  height: 75px;
-  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
   border: 2px solid black;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
   cursor: pointer;
+
 }
+  
 .places-text {
   text-align: center;
   padding: 40px;
 }
 .travel-text {
   font-family: "Raleway", sans-serif;
-  font-size: 1.3em;
+  color: #541b07;
+  font-size: 20px;
 }
 img {
   width: 100%;
@@ -312,9 +315,8 @@ img {
 }
 
 .card-text {
-  margin-top: -10px;
+  margin-top: -3px;
   padding: 10px;
-  /* background-color: #beb6b0; */
   text-align: center;
   font-family: "Amatic SC", cursive;
   font-size: 1.5em;
@@ -323,7 +325,7 @@ img {
 .places-header1 {
   text-align: center;
   color: #b03235;
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: "Amatic SC", cursive;
   margin-top: 20px;
 }
