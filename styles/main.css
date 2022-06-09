@@ -166,9 +166,10 @@ img {
 }
 #buttonResume {
   border-radius: 15px;
-  border: 2px solid #492940;
   font-family: "Raleway", sans-serif;
+  font-size: 16px;
   background-color: #b4c198;
+  border: 2px solid black;
   width: 150px;
   height: 35px;
   cursor: pointer;
@@ -262,9 +263,9 @@ img {
   background-color: #b4c198;
   width: 150px;
   height: 35px;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 2px solid black;
-  font-size: 1em;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
 }
@@ -294,7 +295,7 @@ img {
   height: 35px;
   border-radius: 20px;
   border: 2px solid black;
-  font-size: 1em;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
 

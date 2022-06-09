@@ -5,7 +5,7 @@ Reduce some space on some pages: Places I've been: too much space between header
 Can carousel be wider?
 Add transparent background color behind the words to make them standout.
 Place-name captions on cards not centered. .card-text change to -4px.(done)
-Make submit button consistent across all pages. 
+Make submit button consistent across all pages. (done)
 Alert box on contact me page: put the message on the page and make the form disappear and put the confirmation text in its place?
 Make headers, subheads, and reg. text sizes are consistent throughout site. Go to one page, make sure all the sizes and ratios are how you like them, then carry those across the site.
 
