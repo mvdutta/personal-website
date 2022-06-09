@@ -1,37 +1,35 @@
- /* * { border: 1px solid black; }  */
+/* * { border: 1px solid black; }  */
 .about-me-background {
-  background-color: #FFF6F6;
-  background-image: url("../pages/images/background9.png"); 
+  background-color: #fff6f6;
+  background-image: url("../pages/images/background9.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
-
+  position: relative;
 }
 .about-me-heading {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 3em;
   text-align: center;
-  color: #B03235;
+  color: #b03235;
 }
 .about-me-subheading1 {
-  color:#923B06;
+  color: #923b06;
+  font-family: "Raleway", sans-serif;
 }
-.about-me-text { 
-  font-family: 'Raleway', sans-serif;
-  color: #541B07;
+.about-me-text {
+  font-family: "Raleway", sans-serif;
+  color: #541b07;
   font-size: 16px;
-
 }
 #profilePic {
   width: 250px;
   padding: 60px;
-} 
+}
 .profile {
   background-image: url("../pages/images/indian-pic1.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 250px;
-
 }
 
 .navBar {
@@ -40,13 +38,12 @@
   justify-content: right;
   align-items: center;
   margin-bottom: 0;
-  
 }
 
 .navLinks {
   list-style: none;
   display: flex;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 1.5em;
   margin-top: 0;
 }
@@ -54,31 +51,29 @@
 .navItem a {
   text-decoration: none;
   /* color: #D2143E; */
-  color: #bf0306 ;
+  color: #bf0306;
   padding: 15px 10px;
   display: inline-block;
   font-size: 1.2em;
 }
-.navItem a:hover{
+.navItem a:hover {
   color: #e51212;
 }
 
 #quoteSection {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
-  color: #b03235 ;
+  font-family: "Amatic SC", cursive;
+  color: #b03235;
   font-size: 1.8em;
 }
 
-.page-break{
+.page-break {
   display: flex;
   justify-content: center;
   margin-bottom: 75px;
 }
 #pageBreak {
-  width: 10%
-  
-
+  width: 10%;
 }
 .img-container {
   display: flex;
@@ -88,25 +83,24 @@
 
 #orangecat-image {
   width: 45px;
-
 }
-.footer{
+.footer {
   text-align: center;
-  font-family:'Raleway', sans-serif;
-  color: #541B07;
+  font-family: "Raleway", sans-serif;
+  color: #541b07;
 }
 .interests {
-  background-color: #FFF6F6;
-  background-image: url("/pages/images/background8.png"); 
+  background-color: #fff6f6;
+  background-image: url("/pages/images/background8.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 .hobbies {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 3em;
-  color:#B03235;
+  color: #b03235;
 }
 .card-holder1 {
   margin: 30px;
@@ -114,7 +108,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 .card1 {
   width: 200px;
@@ -125,28 +118,26 @@ img {
 }
 .card-text1 {
   padding: 10px;
-  background-color: #FFE4E1;
+  background-color: #ffe4e1;
   text-align: center;
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .diff-background {
   background-color: lightblue;
   background-image: url("../pages/images/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 
-
 #resumeCardBody {
-  /* border: 2px black solid; */
   padding: 10px;
 }
 
 .card-title {
   color: #af4f0f;
-  font-family:'Amatic SC', cursive;
-  font-size: 1.9em;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.7em;
   text-align: center;
   margin-top: 10px;
 }
@@ -154,19 +145,19 @@ img {
 #resumeCards {
   color: #66541b;
   font-size: 1.2em;
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: -50px;
 }
 
 .resume-text {
-  color:#66541b;
-  font-family:'Raleway', sans-serif;
+  color: #66541b;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   margin-top: -25px;
 }
 #resumeContent {
-  color:#441836;
-  font-family:'Raleway', sans-serif;
+  color: #541B07;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
   margin-bottom: 25px;
 }
@@ -174,39 +165,49 @@ img {
   margin-bottom: 0;
 }
 .resume-button {
-  margin-top: 60px;
-  display:flex;
-  justify-content:center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-#buttonResume{
+#buttonResume {
   border-radius: 15px;
   border: 2px solid #492940;
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #b4c198;
   width: 250px;
   height: 35px;
   cursor: pointer;
 }
 .mainHeading {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 2.7em;
   text-align: center;
   color: #b03235;
   margin-left: 50px;
-  padding: 55px;
+  margin-bottom: 50px;
+}
+.resume-subheading1 {
+  text-align: center;
+  color: #923b06;
+  font-family: "Raleway", sans-serif;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.resume-subheading2 {
+  text-align: center;
+  color: #923b06;
+  font-family: "Raleway", sans-serif;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
 }
 .container {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-}
-article {
-  margin-bottom: 30px;
-  padding: 20px;
-}
-header {
-  text-align: center;
 }
 
 .form-container {
@@ -220,12 +221,11 @@ header {
   justify-content: center;
 }
 .myForm {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.1em;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
 }
 .form-element {
   margin: 20px auto;
@@ -233,29 +233,29 @@ header {
   font-size: 1.1em;
   width: 60%;
 }
-.labels{
+.labels {
   font-size: 1.1em;
   width: 60%;
-  margin-left:auto;
-  margin-right:auto
+  margin-left: auto;
+  margin-right: auto;
 }
 #contact-me {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
-    color: #B03235;
+  font-family: "Amatic SC", cursive;
+  color: #b03235;
   font-weight: bold;
   font-size: 3em;
   padding: 20px;
 }
 .contact-background {
-  background-color: #D3C4B6;
-  background-image: url("../pages/images/pinkflower.jpeg"); 
+  background-color: #d3c4b6;
+  background-image: url("../pages/images/pinkflower.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 .contact-info {
-  text-align: center
+  text-align: center;
 }
 #submit-button {
   background-color: #b4c198;
@@ -269,17 +269,17 @@ header {
 }
 
 .card-holder {
-  margin:30px;
-  padding:10px;
-  display:none;
-  flex-direction:row;
-  justify-content:space-around;
+  margin: 30px;
+  padding: 10px;
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .card {
   width: 500px;
-  margin:10px;
+  margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .button-div {
@@ -287,23 +287,23 @@ header {
   justify-content: center;
   margin-top: 100px;
 }
-#seeplaces{
+#seeplaces {
   background-color: #b4c198;
   width: 175px;
   height: 75px;
   border-radius: 50px;
   border: 2px solid black;
   font-size: 1.2em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   cursor: pointer;
 }
-.places-text{
+.places-text {
   text-align: center;
   padding: 40px;
 }
 .travel-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3em;
 }
 img {
@@ -312,29 +312,27 @@ img {
 }
 
 .card-text {
-  margin-top:-10px;
+  margin-top: -10px;
   padding: 10px;
   /* background-color: #beb6b0; */
-  text-align:center;
-  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
   font-size: 1.5em;
-  color: #B03235;
-  
+  color: #b03235;
 }
 .places-header1 {
   text-align: center;
-    color: #B03235;
+  color: #b03235;
   font-size: 3.5em;
-  Font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   margin-top: 20px;
- 
 }
 .places-background {
-  background-color: #FFF6F6;
-  background-image: url("../pages/images/aged-paper.jpg"); 
+  background-color: #fff6f6;
+  background-image: url("../pages/images/aged-paper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 
 #carouselExampleCaptions {
@@ -342,12 +340,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
-
 }
 
 .carousel-img {
-width: 500px;
-height: 400px;
+  width: 500px;
+  height: 400px;
 }
 .carousel-text {
   color: black;
