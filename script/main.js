@@ -35,11 +35,14 @@ function handleClick() {
     swal("Please enter an email in the form of example@xyz.com")
     return
   }
-  let message1 = `Hi ${fullName}!`
-  let message3 = `I will get back to you at ${email} shortly.`
+  let message1 = `Hi ${fullName}, thanks for visiting!`
+  let message3 = `and will get back to you shortly.`
   let message2 = ""
-  if (comments !== "") {
-    message2 = "Thanks for your comments! "
+  if (comments !== "") {//case where there is a comment
+    message2 = "I appreciate your comments, "
+  }else if (comments === "") {
+    message2 = ""
+    message3 = ""
   }
   document.getElementById("message1").innerHTML=message1
   document.getElementById("message2and3").innerHTML=message2+message3
