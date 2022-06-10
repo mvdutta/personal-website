@@ -102,19 +102,11 @@
   font-size: 3em;
   color: #b03235;
 }
-.card-holder1 {
-  margin: 30px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.card1 {
-  width: 200px;
-  margin: 10px;
-}
-img {
+
+
+.carousel-inner {
   width: 100%;
+  height: 100%;
 }
 
 .diff-background {
@@ -339,16 +331,22 @@ img {
 }
 
 #carouselExampleCaptions {
-  width: 32%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
 }
 
 .carousel-img {
-  width: 500px;
-  height: 400px;
+  width: 500px%;
+  height: 600px;
 }
 .carousel-text {
   color: black;
 }
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: -20px;
+  margin-right: -15%;
+  margin-left: -15%;
+ }
