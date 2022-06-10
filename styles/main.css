@@ -219,8 +219,9 @@
 .form-element {
   margin: 20px auto;
   border: 1px solid black;
-  font-size: 1.1em;
+  font-size: 16px;
   width: 60%;
+  padding: 4px;
 }
 .labels {
   width: 60%;
@@ -229,8 +230,8 @@
   font-family: "Raleway", sans-serif;
   color: #541b07;
   font-size: 16px; 
-
 }
+
 #contact-me {
   text-align: center;
   font-family: "Amatic SC", cursive;
@@ -238,6 +239,16 @@
   font-weight: bold;
   font-size: 3em;
   padding: 20px;
+}
+.hidden {
+  display: none;
+}
+.message-box {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  color: #bf0306;
+  margin-top: 50px;
 }
 .contact-background {
   background-color: #d3c4b6;

@@ -22,15 +22,29 @@ let submitButton = document.getElementById("submit-button");
 function handleClick() {
   let fullName = document.getElementById("fullName").value.trim();
   let email = document.getElementById("email").value.trim();
-  let textBox = document.getElementById("textBox").value.trim();
-  let message = "";
-  if (fullName !== "" && email !== "" && textBox !== "") {
-    message = `Hello, ${fullName}! We received your email address (${email}) and your comment (${textBox}). I'll get back to you soon!`;
-    swal(message);
-  } else if (fullName !== "" && email !== "" && textBox === "") {
-    message = `Hello, ${fullName}, we received your email address (${email}).`;
-    swal(message);
+  let comments = document.getElementById("textBox").value.trim();
+  if (fullName === ""){
+    swal("Please enter your first and last name")
+    return
   }
+  if (email === ""){
+    swal("Please enter your email")
+    return
+  }
+  if (!email.includes("@") ){
+    swal("Please enter an email in the form of example@xyz.com")
+    return
+  }
+  let message1 = `Hi ${fullName}!`
+  let message3 = `I will get back to you at ${email} shortly.`
+  let message2 = ""
+  if (comments !== "") {
+    message2 = "Thanks for your comments! "
+  }
+  document.getElementById("message1").innerHTML=message1
+  document.getElementById("message2and3").innerHTML=message2+message3
+  document.getElementById("messageBox").classList.remove("hidden")
+  document.getElementById("contactForm").classList.add("hidden")
+  
 }
-
 submitButton.addEventListener("click", handleClick);

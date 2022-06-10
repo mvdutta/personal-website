@@ -28,7 +28,7 @@
     </p>
   </section>
    <div class= "form-container">
-  <form class="myForm">
+  <form class="myForm" id="contactForm">
     <label class = "labels" for="fullname">Full Name</label>
     <input type="text" id="fullName" class="form-element"
     name="fullName" required>
@@ -39,6 +39,11 @@
     <textarea id="textBox" name="comments" class="form-element" rows="4" cols="50"></textarea>   
     <input class="form-element" type=button value="Submit Form"
     id="submit-button"></input>
+    </form>
+    <div class="message-box hidden" id="messageBox">
+      <p id="message1">Hi!</p>
+     <p id="message2and3">Thank you for your comments! I'll get back to you at youremail@xyz.com shortly.</p>
+    </div>
   </div> 
   <div class="img-container">
     <img id= "orangecat-image" src="images/newcatpic.png" alt="indian art">
