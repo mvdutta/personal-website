@@ -49,5 +49,8 @@ function handleClick() {
   document.getElementById("messageBox").classList.remove("hidden")
   document.getElementById("contactForm").classList.add("hidden")
   
+  document.getElementById("fullName").value = ""
+  document.getElementById("email").value = ""
+  document.getElementById("textBox").value = ""
 }
 submitButton.addEventListener("click", handleClick);
