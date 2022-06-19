@@ -91,6 +91,10 @@
   font-size: 15px;
   color: #541b07;
 }
+
+.footer-extraspace-top{
+  margin-top: 10px;
+}
 .footer-paragraph {
   padding: 10px;
 }
