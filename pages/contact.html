@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Amatic+SC:wght@700&family=Calligraffitti&family=Macondo&family=Montserrat:wght@300&family=Raleway&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="../styles/main.css"> 
- <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar&family=Amatic+SC:wght@700&family=Calligraffitti&family=Macondo&family=Montserrat:wght@300&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Contact Me</title>
-</head>
-<body class="contact-background">
- <nav class="navBar">
-<ul class = "navLinks">
-  <li class= "navItem"><a href='../index.html'>Home</a></li>
-  <li class= "navItem"><a href="Interests.html">Hobbies and Interests</a></li>
-  <li class= "navItem"><a href='visited-places.html'>Places I've Been</a></li>
-  <li class= "navItem"><a href='resume.html'>Resume</a></li>
-  <li class= "navItem"><a href='contact.html'>Contact Me</a></li>
-</ul>
-</nav>
-  <div id="contact-me">Contact Me</div> 
-  <section class = "contact-info">
-    <p>
-      PO Box 158902 <br>
-      Nashville, TN 37215<br><br>
-      <p><a href="mailto: Me@sample.com">Send Email</a></p>
-    </p>
-  </section>
-   <div class= "form-container">
-  <form class="myForm" id="contactForm">
-    <label class = "labels" for="fullname">Full Name</label>
-    <input type="text" id="fullName" class="form-element"
-    name="fullName" required>
-    <label class="labels" for="email" >Your Email</label>
-    <input type="email" id="email" class="form-element"
-    name="email"  @required >
-    <label class="labels" for="comments">Comments</label>
-    <textarea id="textBox" name="comments" class="form-element" rows="4" cols="50"></textarea>   
-    <input class="form-element" type="button" value="Submit Form" id="submit-button">
-    </form>
-    <div class="message-box hidden" id="messageBox">
-      <p id="message1">Hi!</p>
-     <p id="message2and3">Thank you for your comments! I'll get back to you at youremail@xyz.com shortly.</p>
+  </head>
+  <body class="contact-background">
+    <nav class="navBar">
+      <ul class="navLinks">
+        <li class="navItem"><a href="../index.html">Home</a></li>
+        <li class="navItem">
+          <a href="Interests.html">Hobbies and Interests</a>
+        </li>
+        <li class="navItem">
+          <a href="visited-places.html">Places I've Been</a>
+        </li>
+        <li class="navItem"><a href="resume.html">Resume</a></li>
+        <li class="navItem"><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div id="contact-me">Contact Me</div>
+    <section class="contact-info">
+      <div>
+        PO Box 158902 <br />
+        Nashville, TN 37215<br /><br />
+        <p><a href="mailto: Me@sample.com">Send Email</a></p>
+      </div>
+    </section>
+    <div class="form-container">
+      <form class="myForm" id="contactForm">
+        <label class="labels" for="fullname">Full Name</label>
+        <input
+          type="text"
+          id="fullName"
+          class="form-element"
+          name="fullName"
+          required
+        />
+        <label class="labels" for="email">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-element"
+          name="email"
+          @required
+        />
+        <label class="labels" for="comments">Comments</label>
+        <textarea
+          id="textBox"
+          name="comments"
+          class="form-element"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <input
+          class="form-element"
+          type="button"
+          value="Submit Form"
+          id="submit-button"
+        />
+      </form>
+      <div class="message-box hidden" id="messageBox">
+        <p id="message1">Hi!</p>
+        <p id="message2and3">
+          Thank you for your comments! I'll get back to you at youremail@xyz.com
+          shortly.
+        </p>
+      </div>
     </div>
-  </div> 
-  <div class="img-container">
-    <img id= "orangecat-image" src="images/newcatpic.png" alt="indian art">
-  </div>
-  <footer class="footer">
-    <p class="footer-paragraph">Created by M. Dutta <span>&copy;</span> 2022</p>
-  </footer>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <script src="../script/main.js"></script>
-</body>
+    <div class="img-container">
+      <img id="orangecat-image" src="images/newcatpic.png" alt="indian art" />
+    </div>
+    <footer class="footer">
+      <p class="footer-paragraph">
+        Created by M. Dutta <span>&copy;</span> 2022
+      </p>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../script/main.js"></script>
+  </body>
 </html>
