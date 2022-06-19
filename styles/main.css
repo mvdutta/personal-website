@@ -79,15 +79,20 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: -15px;
 }
 
 #orangecat-image {
-  width: 45px;
+  width: 30px;
 }
 .footer {
   text-align: center;
   font-family: "Raleway", sans-serif;
+  font-size: 15px;
   color: #541b07;
+}
+.footer-paragraph {
+  padding: 10px;
 }
 .interests {
   background-color: #fff6f6;
@@ -105,10 +110,6 @@
 }
 
 
-.carousel-inner {
-  width: 100%;
-  height: 100%;
-}
 
 .diff-background {
   background-color: lightblue;
@@ -118,7 +119,7 @@
   position: relative;
 }
 
-#resumeCardBody {
+.resumeCardBody {
   padding: 10px;
 }
 
@@ -130,7 +131,7 @@
   margin-top: 10px;
 }
 
-#resumeCards {
+.resumeCards {
   color: #66541b;
   font-size: 1.2em;
   font-family: "Raleway", sans-serif;
@@ -143,13 +144,13 @@
   text-align: center;
   margin-top: -25px;
 }
-#resumeContent {
+.resumeContent {
   color: #541B07;
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   margin-bottom: 25px;
 }
-#educationContent {
+.educationContent {
   margin-bottom: 0;
 }
 .resume-button {
@@ -320,11 +321,10 @@ img {
 }
 
 .card-text {
-  margin-top: -3px;
   padding: 10px;
   text-align: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   color: #b03235;
 }
 .places-header1 {
@@ -350,12 +350,9 @@ img {
 }
 
 .carousel-img {
-  width: 500px%;
   height: 600px;
 }
-.carousel-text {
-  /* color: black; */
-}
+
 .carousel-caption {
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: -20px;
