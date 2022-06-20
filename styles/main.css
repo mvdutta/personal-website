@@ -111,6 +111,8 @@
   font-family: "Amatic SC", cursive;
   font-size: 3em;
   color: #b03235;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 
@@ -124,22 +126,22 @@
 }
 
 .resumeCardBody {
-  padding: 10px;
+  padding: 15px;
 }
 
 .card-title {
   color: #b54407;
-  font-family: "Amatic SC", cursive;
-  font-size: 1.7em;
+  font-family:"Raleway", sans-serif;
+  font-size: 20px;
   text-align: center;
   margin-top: 10px;
 }
 
 .resumeCards {
   color: #66541b;
-  font-size: 1.2em;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 
 .resume-text {
@@ -153,24 +155,32 @@
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   margin-bottom: 25px;
+  margin-right: 20px;
 }
 .educationContent {
   margin-bottom: 0;
 }
 .resume-button {
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
+
 #buttonResume {
   border-radius: 15px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  background-color: #b4c198;
-  border: 2px solid black;
+  color: white;
+  background-color: #6a5e37;
+  border: none;
   width: 150px;
   height: 35px;
   cursor: pointer;
+}
+
+#buttonResume:hover{
+  transform: scale(.98);
+  opacity: .7;
 }
 .mainHeading {
   font-family: "Amatic SC", cursive;
@@ -183,16 +193,24 @@
 .resume-subheading1 {
   text-align: center;
   color: #923b06;
-  font-family: "Raleway", sans-serif;
-  margin-left: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+  margin-left: 30.5%;
+  margin-right: 27.9%;
   margin-top: 50px;
   margin-bottom: 30px;
+  background-color: #ebddc2;
+ 
 }
+
 .resume-subheading2 {
   text-align: center;
   color: #923b06;
-  font-family: "Raleway", sans-serif;
-  margin-left: 50px;
+  font-family: "Amatic SC", cursive;
+  background-color: #ebddc2;
+  font-size: 2em;
+  margin-left: 1%;
+  margin-right: -5%;
   margin-top: 50px;
   margin-bottom: 50px;
   
@@ -269,14 +287,19 @@
   font-size: 16px;
 }
 #submit-button {
-  background-color: #b4c198;
+  background-color: #6a5e37;
   width: 150px;
   height: 35px;
   border-radius: 15px;
-  border: 2px solid black;
+  border: none;
+  color: white;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
+}
+#submit-button:hover {
+  transform: scale(.98);
+  opacity: .7;
 }
 
 .card-holder {
@@ -299,15 +322,20 @@
   margin-top: 50px;
 }
 #seeplaces {
-  background-color: #b4c198;
+  background-color: #6a5e37;
   width: 150px;
   height: 35px;
   border-radius: 20px;
   border: 2px solid black;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
+  border: none;
+  color: white;
   cursor: pointer;
-
+}
+#seeplaces:hover {
+  transform: scale(.98);
+  opacity: .7;
 }
   
 .places-text {
@@ -336,7 +364,7 @@ img {
   color: #b03235;
   font-size: 3em;
   font-family: "Amatic SC", cursive;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 .places-background {
   background-color: #fff6f6;
@@ -354,7 +382,8 @@ img {
 }
 
 .carousel-img {
-  height: 600px;
+  width: auto;
+  height: 400px;
 }
 
 .carousel-caption {
