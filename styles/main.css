@@ -171,7 +171,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: white;
-  background-color: #6a5e37;
+  background-color: #665e43;
   border: none;
   width: 150px;
   height: 35px;
@@ -191,15 +191,6 @@
   margin-bottom: 50px;
 }
 
-hr {
-  width: 50px;
-  border: none;
-  border-top: 9px dotted rgb(182, 89, 70);
-  margin-left: 49.8%;
-  opacity: .5;
- 
-}
-
 
 .resume-subheading1 {
   text-align: center;
@@ -213,6 +204,20 @@ hr {
   background-color: #ebddc2;
 }
 
+.dot-holder {
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(225, 213, 157);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
 
 .resume-subheading2 {
   text-align: center;
@@ -298,7 +303,7 @@ hr {
   font-size: 16px;
 }
 #submit-button {
-  background-color: #6a5e37;
+  background-color: #665e43;
   width: 150px;
   height: 35px;
   border-radius: 15px;
@@ -333,7 +338,7 @@ hr {
   margin-top: 50px;
 }
 #seeplaces {
-  background-color: #6a5e37;
+  background-color: #665e43;
   width: 150px;
   height: 35px;
   border-radius: 20px;
