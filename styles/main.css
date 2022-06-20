@@ -190,6 +190,17 @@
   margin-left: 50px;
   margin-bottom: 50px;
 }
+
+hr {
+  width: 50px;
+  border: none;
+  border-top: 9px dotted rgb(182, 89, 70);
+  margin-left: 49.8%;
+  opacity: .5;
+ 
+}
+
+
 .resume-subheading1 {
   text-align: center;
   color: #923b06;
@@ -200,8 +211,8 @@
   margin-top: 50px;
   margin-bottom: 30px;
   background-color: #ebddc2;
- 
 }
+
 
 .resume-subheading2 {
   text-align: center;
