@@ -9,6 +9,7 @@ const quotes = [
   "If you don't like something, change it. If you can't change it, change your attitude.\” — Maya Angelou",
   "It always seems impossible until it's done.\” - Nelson Mandela",
   "We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discpline weighs ounces while regret weighs tons.\" - Jim Rohn",
+  "Every action that you take is a vote for the type of person you want to become.\" - James Clear", 
 
 ];
 function getRandomQuote() {
@@ -18,7 +19,7 @@ function getRandomQuote() {
   document.getElementById("theQuote").innerHTML = quote; //getting the span by its id, "theQuote" and setting its text equal to the quote//
 }
 
-setInterval(getRandomQuote, 4000); //running the function every 4 seconds to show a new quote every 4 seconds//
+setInterval(getRandomQuote, 5000); //running the function every 4 seconds to show a new quote every 4 seconds//
 
 let submitButton = document.getElementById("submit-button");//grabbing button with id "submit-button" and storing it in variable "submitButton"
 function handleClick() {
