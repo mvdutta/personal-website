@@ -53,9 +53,9 @@
   /* color: #D2143E; */
   color: #bf0306;
   padding: 15px 10px;
-  display: inline-block;
   font-size: 1.2em;
 }
+
 .navItem a:hover {
   color: #e51212;
 }
@@ -92,7 +92,7 @@
   color: #541b07;
 }
 
-.footer-extraspace-top{
+.footer-extraspace-top {
   margin-top: 10px;
 }
 .footer-paragraph {
@@ -115,8 +115,6 @@
   margin-bottom: 32px;
 }
 
-
-
 .diff-background {
   background-color: lightblue;
   background-image: url("../pages/images/background3.png");
@@ -131,7 +129,7 @@
 
 .card-title {
   color: #b54407;
-  font-family:"Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
@@ -151,7 +149,7 @@
   margin-top: -25px;
 }
 .resumeContent {
-  color: #541B07;
+  color: #541b07;
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   margin-bottom: 25px;
@@ -178,9 +176,9 @@
   cursor: pointer;
 }
 
-#buttonResume:hover{
-  transform: scale(.98);
-  opacity: .7;
+#buttonResume:hover {
+  transform: scale(0.98);
+  opacity: 0.7;
 }
 .mainHeading {
   font-family: "Amatic SC", cursive;
@@ -190,7 +188,6 @@
   margin-left: 50px;
   margin-bottom: 50px;
 }
-
 
 .resume-subheading1 {
   text-align: center;
@@ -229,7 +226,6 @@
   margin-right: -5%;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
 .container {
   width: 40%;
@@ -268,7 +264,7 @@
   margin-right: auto;
   font-family: "Raleway", sans-serif;
   color: #541b07;
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 #contact-me {
@@ -314,8 +310,8 @@
   cursor: pointer;
 }
 #submit-button:hover {
-  transform: scale(.98);
-  opacity: .7;
+  transform: scale(0.98);
+  opacity: 0.7;
 }
 
 .card-holder {
@@ -350,10 +346,10 @@
   cursor: pointer;
 }
 #seeplaces:hover {
-  transform: scale(.98);
-  opacity: .7;
+  transform: scale(0.98);
+  opacity: 0.7;
 }
-  
+
 .places-text {
   text-align: center;
   padding: 40px;
@@ -407,4 +403,4 @@ img {
   margin-bottom: -20px;
   margin-right: -15%;
   margin-left: -15%;
- }
+}

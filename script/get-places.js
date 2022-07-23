@@ -16,34 +16,34 @@ const names = [
   "Sedona, AZ",
 ];
 
-const seePlacesButton = document.getElementById("seeplaces");
+const seePlacesButton = document.getElementById("seeplaces");//The button with id="seePlaces" is retrieved from the DOM and stored in the variable seePlacesButton so can now be the shorthand for the button//
 
-const holder = document.getElementById("holder");
+const holder = document.getElementById("holder");//The empty div with id="holder" is retrieved from the DOM and stored in the variable "holder" so holder will store the images//
 
 const populatePlaces = () => {
-  if (seePlacesButton.innerHTML === "See My Places") {
-    seePlacesButton.innerHTML = "Go Back";
-  } else {
-    seePlacesButton.innerHTML = "See My Places";
-    holder.replaceChildren();
-    holder.style.display = "none";
+  if (seePlacesButton.innerHTML === "See My Places") { //If the text of the button is "see my places"...
+    seePlacesButton.innerHTML = "Go Back";//change the text to "go back"
+  } else { //if the button says "go back" ...
+    seePlacesButton.innerHTML = "See My Places";//change text to "see my places"
+    holder.replaceChildren();//This will delete all children(nested divs) of the div "holder"
+    holder.style.display = "none";//Uses JS to modify the CSS of holder and add the display: none property
     return;
   }
 
-  for (let i = 0; i < destinations.length; i++) {
-    const newCard = document.createElement("div");
-    newCard.classList.add("card");
+  for (let i = 0; i < destinations.length; i++) {//for every destination in "destination"(array with the links to location images)...
+    const newCard = document.createElement("div");//create a new div and store it in the variable "newCard"
+    newCard.classList.add("card");//Take the new div "newCard" and give it a class "card"
 
-    const newImg = document.createElement("img");
-    newImg.src = destinations[i];
-    const newText = document.createElement("div");
-    newText.classList.add("card-text");
-    newText.innerHTML = names[i];
+    const newImg = document.createElement("img");//create a new img element and store in the variable "newImg"
+    newImg.src = destinations[i];//give newImg a source which is the i-th element of destinations
+    const newText = document.createElement("div");//creates a new empty div which gets stored in the variable "newText"
+    newText.classList.add("card-text");//Takes the new div called "newText" and gives it a class called "card-text"
+    newText.innerHTML = names[i];//changing the text inside the div and using the i-th name from the array called "names"
     newCard.appendChild(newImg);
-    newCard.appendChild(newText);
-    holder.appendChild(newCard);
-    holder.style.display = "flex";
+    newCard.appendChild(newText);//append (adds) newImg and newText to the div newCard (parent div)
+    holder.appendChild(newCard);//stores the completed image and caption inside the larger div called "holder"
+    holder.style.display = "flex";//modify the css of holder to display flex
   }
 };
 
-seePlacesButton.addEventListener("click", populatePlaces);
+seePlacesButton.addEventListener("click", populatePlaces);//Add an event listener to seePlacesButton to listen for clicks; when clicked will run the function populatePlaces//
